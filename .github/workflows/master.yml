@@ -17,6 +17,8 @@ jobs:
       uses: ravsamhq/notify-slack-action@v1
       with:
         status: ${{ job.status }} # required
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }}
     - uses: actions/checkout@v1
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
