@@ -1,0 +1,8 @@
+[
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/cclark/serverless/githubaction/pages/index.vue",
+    "chunkName": "pages/index"
+  }
+]
