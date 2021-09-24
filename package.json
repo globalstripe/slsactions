@@ -10,8 +10,10 @@
   },
   "dependencies": {
     "core-js": "^3.15.1",
+    "jest": "^27.2.1",
     "lint": "^0.7.0",
-    "nuxt": "^2.15.7"
+    "nuxt": "^2.15.7",
+    "remark-lint": "^9.1.0"
   },
   "devDependencies": {
     "serverless-s3-sync": "^1.17.1"

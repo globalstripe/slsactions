@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/cclark/.nvm/versions/node/v14.16.1/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js add ESlint
+  /Users/cclark/.nvm/versions/node/v14.16.1/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js add linter-rubocop
 
 PATH: 
   /Users/cclark/.serverless/bin:/Users/cclark/Downloads/google-cloud-sdk/bin:/Users/cclark/.nvm/versions/node/v14.16.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/cclark/Library/Android/sdk/tools:/Users/cclark/Library/Android/sdk/platform-tools:/Users/cclark/.android/avd:/Applications/Postgres.app/Contents/Versions/13/bin/psql
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/ESlint: Not found
+  Error: https://registry.yarnpkg.com/linter-rubocop: Not found
       at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:66988:18)
       at Request.self.callback (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:140749:22)
       at Request.emit (events.js:315:20)
