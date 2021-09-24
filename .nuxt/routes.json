@@ -3,6 +3,7 @@
     "name": "index",
     "path": "/",
     "component": "/Users/cclark/serverless/githubaction/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_740b9ebb"
   }
 ]
