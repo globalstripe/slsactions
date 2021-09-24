@@ -3,6 +3,8 @@ service: serverless-2112-ci-cd
 plugins:
   - serverless-s3-sync
 
+configValidationMode: off
+
 custom:
   stage: ${opt:stage, 'dev'}
   bucketName: ${self:custom.stage}-${self:service}
